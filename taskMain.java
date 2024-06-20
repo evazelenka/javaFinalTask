@@ -4,13 +4,13 @@ public class taskMain {
     public static void main(String[] args) {
         PhoneBook pB = new PhoneBook();
 
-        User eva = new User("Eva", new ArrayList<Integer>());
+        User eva = new User("Eva");
         
-        User vika = new User("nika", new ArrayList<Integer>());
+        User vika = new User("nika");
 
-        User banan = new User("banan52", new ArrayList<Integer>());
+        User banan = new User("banan52");
 
-        User irina = new User("Irina", new ArrayList<Integer>());
+        User irina = new User("Irina");
 
         pB.add(banan, 1234567);
         pB.add(eva,123456);

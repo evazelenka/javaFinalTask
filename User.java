@@ -15,9 +15,9 @@ public class User {
         return Objects.equals(name, user.name);
     }
 
-    public User(String name,ArrayList<Integer> nums){
+    public User(String name){
+        nums = new ArrayList<>();
         this.name = name;
-        this.nums = nums;
     }
 
     public void setNum(int num){

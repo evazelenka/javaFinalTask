@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.TreeSet;
 
-class PhoneBook {
+public class PhoneBook {
   private static HashMap<User, ArrayList<Integer>> phoneBook = new HashMap<>();
   
   

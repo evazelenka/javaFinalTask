@@ -15,7 +15,7 @@ public class taskMain {
         pB.add(eva, 12345);
         pB.add(eva, 123486);
         pB.add(vika, 193456);
-        pB.add(vika, 13456);
+        // pB.add(vika, 13456);
         pB.add(irina, 1345678);
         pB.add(eva, 123458);
         pB.add(irina, 13456780);
